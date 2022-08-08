@@ -18,19 +18,20 @@ teletips=Client(
 async def start(client, message):
     text = f"""
 Heya {message.from_user.mention},
-I am here to generate Telegraph links for your media files.
+I am here to generate Telegraph links 🖇️ for your media files.
 
 Simply send a valid media file directly to this chat.
 Valid file types are 'jpeg', 'jpg', 'png', 'mp4' and 'gif'.
 
 To generate links in **group chats**, add me to your supergroup and send the command <code>/tl</code> as a reply to a valid media file.
 
+This Bot is created by @Nasa_bots 🔭❤️
 🏠 | [Home](https://t.me/Nasa_bots)
             """
     await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
     
 
-@teletips.on_message(filters.media & filters.private)
+@Nasa_bots.on_message(filters.media & filters.private)
 async def get_link_private(client, message):
     try:
         text = await message.reply("Processing...")
