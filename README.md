@@ -35,7 +35,7 @@ Valid file types are 'jpeg', 'jpg', 'png', 'mp4' and 'gif'.
 To generate links in group chats, add this bot to your group and send the command /tl as a reply to a valid media file.
 ```
 ## Credits
-- [TeLe TiPs](https://github.com/droidex1)
+- [Droidex1](https://github.com/droidex1)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 
 ## Warning
