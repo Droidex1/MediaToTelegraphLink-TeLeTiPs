@@ -31,7 +31,7 @@ This Bot is created by @Nasa_bots 🔭❤️
     await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
     
 
-@Nasa_bots.on_message(filters.media & filters.private)
+@teletips.on_message(filters.media & filters.private)
 async def get_link_private(client, message):
     try:
         text = await message.reply("Processing...")
